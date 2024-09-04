@@ -12,7 +12,7 @@
 ## Installation
 
 1. **Install Fabric**: Ensure you have the Fabric Mod Loader installed.
-2. **Download the Mod**: Download the mod file from [Releases](https://github.com/yourusername/quick-print-coords/releases).
+2. **Download the Mod**: Download the mod file from [Releases](https://github.com/jstin9/quick-print-coords/releases).
 3. **Add to Mods Folder**: Place the downloaded `.jar` file into your Minecraft `mods` folder.
 4. **Run Minecraft**: Launch Minecraft using the Fabric profile.
 
@@ -22,9 +22,9 @@ You can configure the mod in Mod Menu
 
 ## Dependencies
 
-- [Fabric API](https://fabricmc.net/use/)
-- [Cloth Config API](https://github.com/shedaniel/cloth-config)
-- [Mod Menu](https://github.com/TerraformersMC/ModMenu)
+- [Fabric API](https://fabricmc.net/use/) v0.97.2
+- [Cloth Config API](https://github.com/shedaniel/cloth-config) v13.0.121
+- [Mod Menu](https://github.com/TerraformersMC/ModMenu) v9.2.0
 
 ## License
 
