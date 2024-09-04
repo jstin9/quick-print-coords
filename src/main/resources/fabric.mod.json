@@ -1,0 +1,38 @@
+{
+	"schemaVersion": 1,
+	"id": "quick-print-coords",
+	"version": "${version}",
+	"name": "Quick Print Coords",
+	"description": "Adds the ability to quickly send your coordinates to the chat for both yourself and friends",
+	"authors": [
+		"jstn9",
+		"Kelni",
+		"Peas4nt"
+	],
+	"contact": {
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/quick-print-coords/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"client": [
+			"com.jstn9.CoordinateOutputMod"
+		],
+		"modmenu": [ "com.jstn9.ModMenuIntegration" ]
+	},
+	"mixins": [
+		"quick-print-coords.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.8",
+		"minecraft": "~1.20.4",
+		"java": ">=17",
+		"fabric-api": "*",
+		"cloth-config": "13.0.121",
+		"modmenu": "9.2.0"
+	},
+	"suggests": {
+
+	}
+}

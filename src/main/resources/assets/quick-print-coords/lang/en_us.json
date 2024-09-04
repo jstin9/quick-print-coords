@@ -1,0 +1,22 @@
+{
+  "key.coordinatemod.open_config": "Open Configuration",
+  "key.coordinatemod.send_coordinates": "Send Coordinates",
+  "key.coordinatemod.send_coordinates_self": "Send Coordinates to Self",
+  "category.coordinatemod": "Coordinate Output Mod",
+  "config.coordinateoutput.title": "CoordinateOutput Settings",
+  "config.coordinateoutput.category.general": "General Settings",
+  "config.coordinateoutput.option.show_coordinates": "Show Coordinates",
+  "config.coordinateoutput.option.show_coordinates.tooltip": "Enable or disable displaying coordinates in chat",
+  "config.coordinateoutput.option.coordinates_template": "Coordinates Message Template",
+  "config.coordinateoutput.option.coordinates_template.tooltip": "Use {X}, {Y}, {Z} to insert coordinates. Use {Dimension} to insert your current dimension",
+  "config.coordinateoutput.option.overworld_text": "Overworld Name",
+  "config.coordinateoutput.option.overworld_text.tooltip": "Text to display for the Overworld dimension",
+  "config.coordinateoutput.option.nether_text": "Nether Name",
+  "config.coordinateoutput.option.nether_text.tooltip": "Text to display for the Nether dimension",
+  "config.coordinateoutput.option.end_text": "End Name",
+  "config.coordinateoutput.option.end_text.tooltip": "Text to display for the End dimension",
+  "config.coordinateoutput.option.death_message_template": "Death Message Template",
+  "config.coordinateoutput.option.death_message_template.tooltip": "Use {X}, {Y}, {Z} to insert coordinates. Use {Dimension} to insert your current dimension",
+  "config.coordinateoutput.option.show_death_message": "Show Death Message",
+  "config.coordinateoutput.option.show_death_message.tooltip": "Enable or disable displaying death message in chat"
+}

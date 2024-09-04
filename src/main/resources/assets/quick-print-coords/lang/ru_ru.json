@@ -1,0 +1,22 @@
+{
+  "key.coordinatemod.open_config": "Открыть настройки",
+  "key.coordinatemod.send_coordinates": "Отправить координаты",
+  "key.coordinatemod.send_coordinates_self": "Отправить координаты себе",
+  "category.coordinatemod": "Мод вывода координат",
+  "config.coordinateoutput.title": "Настройки CoordinateOutput",
+  "config.coordinateoutput.category.general": "Общие настройки",
+  "config.coordinateoutput.option.show_coordinates": "Показывать координаты",
+  "config.coordinateoutput.option.show_coordinates.tooltip": "Включить или отключить отображение координат в чате",
+  "config.coordinateoutput.option.coordinates_template": "Шаблон сообщения координат",
+  "config.coordinateoutput.option.coordinates_template.tooltip": "Используйте {X}, {Y}, {Z} для вставки координат. Используйте {Dimension} для вставки текущего измерения",
+  "config.coordinateoutput.option.overworld_text": "Название верхнего мира",
+  "config.coordinateoutput.option.overworld_text.tooltip": "Текст для отображения измерения верхнего мира",
+  "config.coordinateoutput.option.nether_text": "Название нижнего мира",
+  "config.coordinateoutput.option.nether_text.tooltip": "Текст для отображения измерения нижнего мира",
+  "config.coordinateoutput.option.end_text": "Название края",
+  "config.coordinateoutput.option.end_text.tooltip": "Текст для отображения измерения края",
+  "config.coordinateoutput.option.death_message_template": "Шаблон сообщения о смерти",
+  "config.coordinateoutput.option.death_message_template.tooltip": "Используйте {X}, {Y}, {Z} для вставки координат. Используйте {Dimension} для вставки текущего измерения",
+  "config.coordinateoutput.option.show_death_message": "Показывать сообщение о смерти",
+  "config.coordinateoutput.option.show_death_message.tooltip": "Включить или отключить отображение сообщения о смерти в чате"
+}
