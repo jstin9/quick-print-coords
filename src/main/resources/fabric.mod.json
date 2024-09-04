@@ -10,7 +10,7 @@
 		"Peas4nt"
 	],
 	"contact": {
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/jstin9/quick-print-coords"
 	},
 	"license": "MIT",
 	"icon": "assets/quick-print-coords/icon.png",
