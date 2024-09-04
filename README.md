@@ -1,18 +1,35 @@
-Quick print coords is a Minecraft mod that allows players to quickly print their coordinates to the chat. It’s useful for sharing your location with friends or keeping track of your position.
+# Quick Print Coords
 
-Features
-Send your current coordinates to the chat with a single key press.
+**Quick Print Coords** is a Minecraft mod that allows you to quickly send your coordinates to the chat. It supports both sending coordinates to yourself and to others in multiplayer.
 
-Installation
-Download and install Fabric Loader.
-Place the mod’s .jar file in your Minecraft mods folder.
+## Features
 
-Ensure you have the required dependencies:
-Fabric API >v0.97.2
-Cloth Config v13.0.121
-Mod Menu v9.2.0
+- **Quick Coordinate Sharing**: Easily send your current coordinates to the chat.
+- **Customizable Messages**: Change the template for coordinate messages via the config menu.
+- **Death Coordinates**: Automatically display your death coordinates in the chat.
+- **Sound Feedback**: Hear a sound when coordinates are sent.
 
-License
-This project is licensed under the MIT License. See the LICENSE file for more details.
+## Installation
 
-You can customize it further if needed!
+1. **Install Fabric**: Ensure you have the Fabric Mod Loader installed.
+2. **Download the Mod**: Download the mod file from [Releases](https://github.com/yourusername/quick-print-coords/releases).
+3. **Add to Mods Folder**: Place the downloaded `.jar` file into your Minecraft `mods` folder.
+4. **Run Minecraft**: Launch Minecraft using the Fabric profile.
+
+## Configuration
+
+You can configure the mod in Mod Menu
+
+## Dependencies
+
+- [Fabric API](https://fabricmc.net/use/)
+- [Cloth Config API](https://github.com/shedaniel/cloth-config)
+- [Mod Menu](https://github.com/TerraformersMC/ModMenu)
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Contributing
+
+Feel free to fork this project, submit issues, and create pull requests. Contributions are always welcome!
