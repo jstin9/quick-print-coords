@@ -21,10 +21,9 @@
 You can configure the mod in Mod Menu
 
 ## Dependencies
-
-- [Fabric API](https://fabricmc.net/use/) v0.97.2
-- [Cloth Config API](https://github.com/shedaniel/cloth-config) v13.0.121
-- [Mod Menu](https://github.com/TerraformersMC/ModMenu) v9.2.0
+- [Fabric API](https://fabricmc.net/use/)
+- [Cloth Config API](https://github.com/shedaniel/cloth-config)
+- [Mod Menu](https://github.com/TerraformersMC/ModMenu)
 
 ## License
 
