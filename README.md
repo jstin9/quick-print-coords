@@ -25,10 +25,4 @@ You can configure the mod in Mod Menu
 - [Cloth Config API](https://github.com/shedaniel/cloth-config)
 - [Mod Menu](https://github.com/TerraformersMC/ModMenu)
 
-## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
-## Contributing
-
-Feel free to fork this project, submit issues, and create pull requests. Contributions are always welcome!
