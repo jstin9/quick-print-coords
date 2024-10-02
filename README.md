@@ -1,4 +1,4 @@
-<a href="https://modrinth.com/mod/discord-webhook"><img src="https://img.shields.io/badge/dynamic/json?color=158000&label=downloads&prefix=+%20&query=downloads&url=https://api.modrinth.com/v2/project/quick-print-coords&logo=modrinth"></a>
+<a href="https://modrinth.com/mod/quick-print-coords"><img src="https://img.shields.io/badge/dynamic/json?color=158000&label=downloads&prefix=+%20&query=downloads&url=https://api.modrinth.com/v2/project/quick-print-coords&logo=modrinth"></a>
 # Quick Print Coords
 
 **Quick Print Coords** is a Minecraft mod that allows you to quickly send your coordinates to the chat. It supports both sending coordinates to yourself and to others in multiplayer.
