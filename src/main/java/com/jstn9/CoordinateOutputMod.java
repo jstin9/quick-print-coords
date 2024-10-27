@@ -12,6 +12,7 @@ public class CoordinateOutputMod implements ClientModInitializer {
 
 	private KeyBinding coordinatesKey;
 	private KeyBinding selfCoordinatesKey;
+	private KeyBinding netherCoordsKey;
 
 	@Override
 	public void onInitializeClient() {
@@ -21,11 +22,16 @@ public class CoordinateOutputMod implements ClientModInitializer {
 				GLFW.GLFW_KEY_Z,
 				"category.coordinatemod"
 		));
-
 		selfCoordinatesKey = KeyBindingHelper.registerKeyBinding(new KeyBinding(
 				"key.coordinatemod.send_coordinates_self",
 				InputUtil.Type.KEYSYM,
 				GLFW.GLFW_KEY_V,
+				"category.coordinatemod"
+		));
+		netherCoordsKey = KeyBindingHelper.registerKeyBinding(new KeyBinding(
+				"key.coordinatemod.send_nether_coords",
+				InputUtil.Type.KEYSYM,
+				GLFW.GLFW_KEY_N,
 				"category.coordinatemod"
 		));
 
@@ -41,6 +47,9 @@ public class CoordinateOutputMod implements ClientModInitializer {
 		}
 		if (selfCoordinatesKey.wasPressed()) {
 			KeyInputHandler.handleKeyInput(client, true);
+		}
+		if (netherCoordsKey.wasPressed()) {
+			KeyInputHandler.handleNetherCoords(client);
 		}
 	}
 

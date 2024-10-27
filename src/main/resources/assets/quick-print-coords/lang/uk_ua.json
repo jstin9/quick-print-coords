@@ -18,5 +18,13 @@
   "config.coordinateoutput.option.death_message_template": "Шаблон повідомлення про смерть",
   "config.coordinateoutput.option.death_message_template.tooltip": "Використовуйте {X}, {Y}, {Z} для вставки координат. Використовуйте {Dimension} для вставки поточного виміру",
   "config.coordinateoutput.option.show_death_message": "Показувати повідомлення про смерть",
-  "config.coordinateoutput.option.show_death_message.tooltip": "Увімкнути або вимкнути показ повідомлення про смерть у чаті"
+  "config.coordinateoutput.option.show_death_message.tooltip": "Увімкнути або вимкнути показ повідомлення про смерть у чаті",
+  "key.coordinatemod.send_nether_coords": "Відправити координати Аду/Верхнього світу",
+  "message.coordinatemod.nether_coords": "Мої координати в Аду: X=%s, Z=%s",
+  "message.coordinatemod.overworld_coords": "Мої координати у Верхньому світі: X=%s, Z=%s",
+  "message.coordinatemod.wrong_dimension": "Ви не перебуваєте у Верхньому світі або Аду!",
+  "config.coordinateoutput.option.overworld_to_nether_template": "Шаблон координат з Верхнього світу в Пекло",
+  "config.coordinateoutput.option.overworld_to_nether_template.tooltip": "Шаблон для перетворення координат Верхнього світу на координати Пекла.",
+  "config.coordinateoutput.option.nether_to_overworld_template": "Шаблон координат з Пекла у Верхній світ",
+  "config.coordinateoutput.option.nether_to_overworld_template.tooltip": "Шаблон для перетворення координат Пекла на координати Верхнього світу."
 }

@@ -18,5 +18,13 @@
   "config.coordinateoutput.option.death_message_template": "Death Message Template",
   "config.coordinateoutput.option.death_message_template.tooltip": "Use {X}, {Y}, {Z} to insert coordinates. Use {Dimension} to insert your current dimension",
   "config.coordinateoutput.option.show_death_message": "Show Death Message",
-  "config.coordinateoutput.option.show_death_message.tooltip": "Enable or disable displaying death message in chat"
+  "config.coordinateoutput.option.show_death_message.tooltip": "Enable or disable displaying death message in chat",
+  "key.coordinatemod.send_nether_coords": "Send Nether/Overworld Coords",
+  "message.coordinatemod.nether_coords": "My Nether Coords: X=%s, Z=%s",
+  "message.coordinatemod.overworld_coords": "My Overworld Coords: X=%s, Z=%s",
+  "message.coordinatemod.wrong_dimension": "You are not in the Overworld or Nether!",
+  "config.coordinateoutput.option.overworld_to_nether_template": "Overworld to Nether template",
+  "config.coordinateoutput.option.overworld_to_nether_template.tooltip": "Template for converting Overworld coordinates to Nether coordinates.",
+  "config.coordinateoutput.option.nether_to_overworld_template": "Nether to Overworld template",
+  "config.coordinateoutput.option.nether_to_overworld_template.tooltip": "Template for converting Nether coordinates to Overworld coordinates."
 }

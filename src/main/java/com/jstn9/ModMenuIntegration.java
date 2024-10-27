@@ -76,6 +76,22 @@ public class ModMenuIntegration implements ModMenuApi {
                     .setSaveConsumer(KeyInputHandler::setDeathMessageTemplate)
                     .build();
 
+            StringListEntry overworldToNetherTemplateEntry = entryBuilder.startTextField(
+                            Text.translatable("config.coordinateoutput.option.overworld_to_nether_template"),
+                            KeyInputHandler.getOverworldToNetherTemplate())
+                    .setDefaultValue("Nether coords: {X}, {Z}")
+                    .setTooltip(Text.translatable("config.coordinateoutput.option.overworld_to_nether_template.tooltip"))
+                    .setSaveConsumer(KeyInputHandler::setOverworldToNetherTemplate)
+                    .build();
+
+            StringListEntry netherToOverworldTemplateEntry = entryBuilder.startTextField(
+                            Text.translatable("config.coordinateoutput.option.nether_to_overworld_template"),
+                            KeyInputHandler.getNetherToOverworldTemplate())
+                    .setDefaultValue("Overworld coords: {X}, {Z}")
+                    .setTooltip(Text.translatable("config.coordinateoutput.option.nether_to_overworld_template.tooltip"))
+                    .setSaveConsumer(KeyInputHandler::setNetherToOverworldTemplate)
+                    .build();
+
             builder.getOrCreateCategory(Text.translatable("config.coordinateoutput.category.general"))
                     .addEntry(coordinatesTemplateEntry)
                     .addEntry(showCoordinatesEntry)
@@ -83,7 +99,9 @@ public class ModMenuIntegration implements ModMenuApi {
                     .addEntry(netherTextEntry)
                     .addEntry(endTextEntry)
                     .addEntry(showDeathMessageEntry)
-                    .addEntry(deathMessageTemplateEntry);
+                    .addEntry(deathMessageTemplateEntry)
+                    .addEntry(overworldToNetherTemplateEntry)
+                    .addEntry(netherToOverworldTemplateEntry);
 
             return builder.build();
         };
