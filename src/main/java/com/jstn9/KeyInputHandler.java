@@ -151,7 +151,7 @@ public class KeyInputHandler {
     public static void showDeathCoordinates(MinecraftClient client) {
         if (client.player != null && showDeathMessage && !deathCoordinatesShow) {
             String deathMessage = formatCoordinatesMessage(client, deathMessageTemplate);
-            client.player.sendMessage(Text.of(deathMessage));
+            client.inGameHud.getChatHud().addMessage(Text.of(deathMessage));
             deathCoordinatesShow = true;
         }
     }
